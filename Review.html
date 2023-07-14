@@ -1,0 +1,419 @@
+ <!DOCTYPE html>
+<html>
+<head>
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    #navi{
+      padding-top: 35px;
+      padding-left: 2%;
+       padding-right: 5%;
+      padding-bottom: 35px;
+
+
+    }
+  .zoom{
+
+    overflow: hidden;/*hide the overflowing of child elements*/
+  }
+  .zoom img{
+    transition: transform .5s ease;
+  }
+  .zoom:hover img{
+    transform: scale(1.2);
+  }
+
+  #a {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('img/instragram/05.png');
+    ;
+
+
+}
+section {
+    height: 80vh;
+    border: 1px solid black;
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    text-align: justify;
+    padding-left: 30%;
+    padding-top: 8%;
+    /*padding-right: 25%;*/
+    padding-bottom: 8%;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+ 
+  
+ 
+    
+  </style>
+
+</head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<body>
+     <div class="container-fluid">
+
+
+   <nav class=" navbar-nav ml-auto navbar navbar-expand-md navbar-light bg-secondary  fixed-top" id="navi">
+
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-nav " >
+        <img src="img/logo.jpg">
+      </div>
+
+    <div class="collapse navbar-collapse" id="navbarcollapse" >
+      
+      <div class="navbar-nav " style="padding-left: 8%">
+        <a href="index.html" class="nav-item nav-link  text-white"><b>Home</b></a>
+         
+          <a href="About.html" class="nav-item nav-link text-white"><b>About</b></a>
+           <a href="Room.html" class="nav-item nav-link text-white "><b>Rooms</b></a>
+           <a href="#" class="nav-item nav-link text-info active  "><b>Review</b></a>
+           <a href="Contact.html" class="nav-item nav-link text-white"><b>Contacts</b></a>
+           
+       </div>
+
+       
+                 <div class="navbar-nav ml-auto">
+
+                                    <a href="#">
+                                        <i class="fa fa-facebook-square btn text-white" ></i>
+                                    </a>
+                                
+                                
+                                    <a href="#">
+                                        <i class="fa fa-twitter btn text-white"></i>
+                                    </a>
+                                
+                               
+                                    <a href="#">
+                                        <i class="fa fa-instagram btn text-white"></i>
+                                    </a>&nbsp&nbsp&nbsp
+                                    <button type="button" class="btn btn-info">Book A Room </button>
+
+
+    </div>
+
+  </div>
+</nav>
+</div>
+
+
+<br> <br> <br> <div id="mypage" class="carousel slide" data-interval="3000" data-ride="carousel">
+
+  <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="img/banner/bradcam02.png" alt="first page" style="height: 100%; width: 100%;">
+        <div class="carousel-caption">
+        <h1><b> Time for Reviews </b></h1>
+           
+      </div>
+    </div>
+  </div>
+</div>
+<br><br><br><br>
+<!-- 
+<----------------------------------------------------------> 
+<div class="jumbotron">
+     <div class="container  text-dark"><br><br>
+      
+       <div class="row justify-content-center text-center mb-5">
+          
+            <h2 class="heading" style="font-family: times-bolditalic" >People Says</h2>
+          </div>
+        <br>
+
+
+
+<center>
+  <div id="mypage" class="carousel slide " data-interval="3000" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#mypage" data-slide-to="0" class="active"></li>
+      <li data-target="#mypage" data-slide-to="1" class="active"></li>
+    </ol>
+
+    <div class="carousel-inner" >
+
+      
+                
+                   <div class="carousel-item active">
+                    
+            <div class="row ">
+                    <div class="col-xl-4">
+           <img src="img/person_1.jpg"  class="rounded-circle" width="100px" height="100px"><br><br>
+           <blockquote>
+
+                <p>&ldquo;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
+              </blockquote>
+              <p><em>&mdash; Jean Smith</em></p>
+       </div>
+       
+                            
+                    
+                
+                <div class="col-xl-4">
+                  
+                   
+           <img src="img/person_2.jpg"  class="rounded-circle" width="100px" height="100px"><br><br>
+           <blockquote>
+                <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
+              </blockquote>
+              <p><em>&mdash; John Doe</em></p>
+       </div>
+       
+               
+
+                <div class="col-xl-4">
+                    
+                    
+           <img src="img/person_3.jpg"  class="rounded-circle" width="100px" height="100px"><br><br>
+           <blockquote>
+
+                <p>&ldquo;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.&rdquo;</p>
+              </blockquote>
+              <p><em>&mdash; Kean Williams</em></p>
+       
+                    </div>
+                </div>
+
+            </div>
+        
+
+
+         <!-- ................................................. -->
+               <div class="carousel-item">
+                
+            <div class="row ">
+                    <div class="col-xl-4">
+           <img src="img/person_4.jpg"  class="rounded-circle" width="100px" height="100px"><br><br>
+           <blockquote>
+                <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
+              </blockquote>
+              <p><em>&mdash; Daniel Ebraham</em></p>
+       </div>
+       
+                            
+                    
+                
+                <div class="col-xl-4">
+                  
+                   
+           <img src="img/person_3.jpg"  class="rounded-circle" width="100px" height="100px"><br><br>
+            <blockquote>
+
+                <p>&ldquo;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.&rdquo;</p>
+              </blockquote>
+              <p><em>&mdash; Kean Williams</em></p>
+       </div>
+       
+               
+
+                <div class="col-xl-4">
+                    
+                    
+           <img src="img/person_1.jpg"  class="rounded-circle" width="100px" height="100px"><br><br>
+           <blockquote>
+
+                <p>&ldquo;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
+              </blockquote>
+              <p><em>&mdash; Jean Smith</em></p>
+       
+                    </div>
+                </div>
+                
+
+
+
+            </div>
+
+        </div>
+<br><br>
+     
+       
+                
+            
+       
+      </div>
+      </center>
+    </div>
+</div><br>
+
+
+<!-- <-----------------------------------------------------------> 
+<div class="container">
+
+    <h2 class="heading" style="font-family: times-bolditalic mx-auto" >Leave a Review</h2>
+                       <form>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control " name="message" id="message" cols="30" rows="9"    placeholder=" review"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="name"  type="text" placeholder="Enter your name">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="email" placeholder="Email">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="form-group mt-3">
+                                <button type="button" class="btn btn-secondary rounded  text-dark "><h5>send</h5></button>
+                            </div>
+                        </form>
+                    </div>
+                    
+
+<br><br>
+
+
+<!--   <----------------------------------------------------------> 
+ <section id="a">
+  <div class="section-inner">
+ <h3 class="section_title" style="font-family: palatino-italic; text-align: center;" >WHY CHOOSE MAZIA</h3><br><br><br>
+  
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6" style="padding-left: 5%;">
+        <h5>Best Price Guarantee</h5>
+
+  <p>You can be sure of booking at the best rate with our best price guarantee</p>
+  <h5>Book Now  to Secure Availablility</h5>
+  <p>Book now to secure your date!</p>
+  <h5>Late Chech-out on Request</h5>
+  <p>We will do our best to accomodate your requests upon your arrival</p>
+      </div>
+      <div class="col-md-6" style="padding-left: 15%;">
+        <h5>Free Wi-Fi Available</h5>
+  <p>All you need is coffee & unlimited wifi</p>
+  <h5>Meeting & Special Events</h5>
+  <p>Get ready to celebrate your <br>events with us</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  <br><br>
+
+
+<!-- <------------------------------------------------------------> 
+
+
+   <footer class="text-white" style="background-color:black; padding: 3% ">
+      <div class="container-fluid">
+         <div class="row">
+
+
+          <div class="col-xl-3">
+            <h3 class="footer_title"><br><br><br>
+                                Address<br><br><br>
+                            </h3>
+                            <p class="footer_text"> Customes road,Bepur <br>
+                                Calicut City Kerala</p>
+                            <a href="#" class="line-button text-white">Get Direction</a>
+                        </div>
+                    
+                    <div class="col-xl-3">
+                        
+                            <h3 class="footer_title"><br><br><br>
+                                Reservation<br><br><br>
+                            </h3>
+                            <p class="footer_text">+10 367 267 2678 <br>
+                                reservation@mazia.com</p>
+                        </div>
+                    
+                    <div class="col-xl-2">
+                        
+                            <h3 class="footer_title"><br><br><br>
+                                Navigation<br><br><br>
+                            </h3>
+                            
+                                <a href="#" class="text-white">Home</a><br>
+                                <a href="#" class="text-white">About</a><br>
+                                <a href="#" class="text-white">Rooms</a><br>
+                                <a href="#" class="text-white">Contact</a><br>
+                            
+                        </div>
+                    
+                    <div class="col-xl-4 ">
+                      
+                            <h3 class="footer_title"><br><br><br>
+                                Newsletter<br><br><br>
+                            </h3>
+                            <form action="#">
+                                <input type="text" placeholder="Enter your mail">
+                                <button type="submit" class="btn-info">Sign Up</button>
+                            </form>
+                            <br><p>Subscribe newsletter to get updates</p>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+                
+
+                
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-xl-8">
+                        <p>
+                            
+Copyright @2023  All rights reserved | by fazz <i class="fa fa-heart-o" ></i> </a>
+
+                    </div>
+                    <div class="col-xl-4 ">
+                        
+                            
+                                
+                                    <a href="#">
+                                        <i class="fa fa-facebook-square btn text-white" ></i>
+                                    </a>
+                                
+                                
+                                    <a href="#">
+                                        <i class="fa fa-twitter btn text-white"></i>
+                                    </a>
+                                
+                               
+                                    <a href="#">
+                                        <i class="fa fa-instagram btn text-white"></i>
+                                    </a>
+                             
+                           
+                        </div>
+                    </div>
+                </div>
+            
+     
+
+    </footer>            
+            
+
+
+</body>
+</html>

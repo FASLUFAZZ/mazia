@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    #navi{
+        padding-top: 35px;
+            padding-left: 2%;
+       padding-right: 5%;
+        padding-bottom: 35px;
+}
+     .zoom{
+
+    overflow: hidden;/*hide the overflowing of child elements*/
+  }
+  .zoom img{
+    transition: transform .5s ease;
+  }
+  .zoom:hover img{
+    transform: scale(1.2);
+  }
+  </style>
+
+</head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<body>
+     <div class="container-fluid">
+
+
+   <nav class=" navbar-nav ml-auto navbar navbar-expand-md navbar-light bg-secondary fixed-top" id="navi">
+
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-nav ">
+        <img src="img/logo.jpg">
+      </div>
+
+    <div class="collapse navbar-collapse" id="navbarcollapse" >
+      
+      <div class="navbar-nav " style="padding-left: 8%">
+        <a href="index.html" class="nav-item nav-link text-white"><b>Home</b></a>
+         
+          <a href="About.html" class="nav-item nav-link text-white"><b>About</b></a>
+            <a href="Room.html" class="nav-item nav-link text-white "><b>Rooms</b></a>
+            <a href="Review.html" class="nav-item nav-link text-white "><b>Review</b></a>
+           <a href="#" class="nav-item nav-link text-info active"><b>Contacts</b></a>
+       </div>
+
+        
+                 <div class="navbar-nav ml-auto">
+
+                                    <a href="#">
+                                        <i class="fa fa-facebook-square btn text-white" ></i>
+                                    </a>
+                                
+                                
+                                    <a href="#">
+                                        <i class="fa fa-twitter btn text-white"></i>
+                                    </a>
+                                
+                               
+                                    <a href="#">
+                                        <i class="fa fa-instagram btn text-white"></i>
+                                    </a>&nbsp&nbsp&nbsp
+                                    <button type="button" class="btn btn-info">Book A Room </button>
+
+
+    </div>
+
+  </div>
+</nav>
+</div>
+   
+     <!-- <------------------------------------------------------------------> 
+
+     <br> <br> <br><div id="mypage" class="carousel slide" data-interval="3000" data-ride="carousel"> 
+
+   
+
+    <!-- <ol class="carousel-indicators">
+      <li data-target="#mypage" data-slide-to="0" class="active"></li>
+      <li data-target="#mypage" data-slide-to="1" class="active"></li>
+    </ol> -->
+  
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="img/banner/bradcam3.png" alt="first page" style="height: 100%; width: 100%;">
+        <div class="carousel-caption">
+        <h1><b> Get In Touch </b></h1>
+           
+      </div>
+    </div>
+  </div>
+</div>
+<br><br><br><br>
+
+    <!--  <------------------------------------------------------------------->
+    <div class="container">
+<h2 >Location</h2>
+<br>
+  <center> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.1447251944737!2d75.77937201480508!3d11.250762192000694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba6593f100fb8a7%3A0x3faf33837725dced!2sSM%20St%2C%20Palayam%2C%20Kozhikode%2C%20Kerala%20673001!5e0!3m2!1sen!2sin!4v1662352839574!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+</div>
+
+   <br><br><br>
+
+   <!-- <-----------------LOCATION-------------------------->
+
+    <div class="container-fluid" style="padding-left: 5%;">
+    <div class="row">
+
+
+                    <div class="col-12">
+                        <h2 class="contact-title">Get in Touch</h2><br>
+                    </div>
+                    <div class="col-lg-8">
+                        <form>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control " name="message" id="message" cols="30" rows="9"    placeholder=" message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="name"  type="text" placeholder="Enter your name">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="email" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input class="form-control" name="subject" type="text"  placeholder="Enter Subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <button type="button" class="btn btn-secondary rounded  text-dark "><h5>send</h5></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-3 " style="padding-left: 8%;">
+                        
+                          <br><br>
+                            
+                                <h5>Customes Road, Calicut.</h5>
+                                <p>Bepur,673312</p>
+                          
+                        
+                                <br>
+                            
+                            
+                                <h5>+91 8891605553</h5>
+                                <p>Mon to Fri 9am to 6pm</p>
+                            
+                            
+                       
+                                 <br>
+                          
+                            
+                                <h5>support@mazia.com</h5>
+                                <p>Send us your query anytime!</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <br><br>
+    <!-- <-------------------------------------------------------------------------->
+          
+          <footer class="text-white" style="background-color:black; padding: 3% ">
+      <div class="container-fluid">
+         <div class="row">
+
+
+          <div class="col-xl-3">
+            <h3 class="footer_title"><br><br><br>
+                                Address<br><br><br>
+                            </h3>
+                            <p class="footer_text"> Customes road,Bepur <br>
+                                Calicut City Kerala</p>
+                            <a href="#" class="line-button text-white">Get Direction</a>
+                        </div>
+                    
+                    <div class="col-xl-3">
+                        
+                            <h3 class="footer_title"><br><br><br>
+                                Reservation<br><br><br>
+                            </h3>
+                            <p class="footer_text">+91 8891605553 <br>
+                                0495 2700775<br></p>
+                                reservation@mazia.com
+                        </div>
+                    
+                    <div class="col-xl-2">
+                        
+                            <h3 class="footer_title"><br><br><br>
+                                Navigation<br><br><br>
+                            </h3>
+                            
+                                <a href="#" class="text-white">Home</a><br>
+                                <a href="#" class="text-white">Rooms</a><br>
+                                <a href="#" class="text-white">About</a><br>
+                                <a href="#" class="text-white">News</a><br>
+                            
+                        </div>
+                    
+                    <div class="col-xl-4 ">
+                      
+                            <h3 class="footer_title"><br><br><br>
+                                Newsletter<br><br><br>
+                            </h3>
+                            <form action="#">
+                                <input type="text" placeholder="Enter your mail">
+                                <button type="submit" class="btn-info">Sign Up</button>
+                            </form>
+                            <br><p>Subscribe newsletter to get updates</p>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+                
+
+                
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-xl-8">
+                        <p>
+                            
+Copyright @2023  All rights reserved | by fazz <i class="fa fa-heart-o" ></i> </a>
+
+                    </div>
+                    <div class="col-xl-4 ">
+                        
+                            
+                                
+                                    <a href="#">
+                                        <i class="fa fa-facebook-square btn text-white" ></i>
+                                    </a>
+                                
+                                
+                                    <a href="#">
+                                        <i class="fa fa-twitter btn text-white"></i>
+                                    </a>
+                                
+                               
+                                    <a href="#">
+                                        <i class="fa fa-instagram btn text-white"></i>
+                                    </a>
+                             
+                           
+                        </div>
+                    </div>
+                </div>
+            
+     
+
+    </footer>
+
+
+          </body>
+          </html>
